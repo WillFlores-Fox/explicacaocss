@@ -1,0 +1,60 @@
+body { /* corpo do html */
+    font-family: 'Roboto', sans-serif; /* define a fonte de todo o corpo */
+    margin: 0; /* tira a margem do externa corpo */
+    padding: 0; /* tira a margem do interna corpo*/
+}
+
+header {
+    background-color: #333; /* define a cor de fundo do header */
+    color: white; /* define a cor do conteudo do header para branco */
+    padding: 10px; /* define o tamanho da margem de todos os lados */
+    text-align: center; /* coloca o conteudo do header no centro */
+}
+
+nav ul {
+    list-style-type: none; /* mudo o icone da lista para nada */
+    margin: 0; /* define a margem externa do conteudo em zero */
+    padding: 0; /* define a margem interna do conteudo em zero */
+    overflow: hidden; /* retira a barra de rolagem */
+    background-color: #444; /* define a cor de fundo do conteudo */
+    text-align: center; /* alinha o conteudo no centro */
+}
+
+nav ul li {
+    display: inline; /* coloca o conteudo em linha */
+}
+
+nav ul li a {
+    display: inline-block; /* deixa o conteudo fixo */
+    color: white; /* define a cor do conteudo */
+    padding: 14px 20px; /* define o tamanho da margem left, top */
+    text-decoration: none; /* define a decoração do texto para nada */
+}
+
+nav ul li a:hover { /* hover é usado para mudanças do conteudo, como: animações e etc */
+    background-color: #111; /* define a cor do fundo */
+}
+
+main {
+    padding: 20px; /* acrementa a margem do main */
+}
+
+section {
+    margin-bottom: 20px; /* acrementa a margem do section */
+}
+
+aside {
+    background-color: #f4f4f4; /* define o fundo */
+    padding: 20px; /* acrescenta margem em todos os angulos */
+    margin: 20px 0; /* acrescenta 20 pixel em left e 0 em top*/
+}
+
+footer {
+    background-color: #333; /* define a cor de fundo do footer */
+    color: white; /* define a cor do conteudo */
+    text-align: center; /* alinha o conteudo no centro */
+    padding: 10px 0; /* define a margem left em 10px e o demais em 0 de espaço */
+    position: fixed; /* definiu a posição do conteudo fixa */
+    width: 100%; /* definiu a largura em 100% */
+    bottom: 0; /* define que embaixo do conteudo vai ter 0 de espaço */
+}
